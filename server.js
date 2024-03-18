@@ -9,7 +9,8 @@ const app = express();
 // Middleware
 app.use(cors(
     {
-        origin:*
+        Access-Control-Allow-Origin: *
+
     }
 ));
 app.use(bodyParser.json());
