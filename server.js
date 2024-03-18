@@ -9,8 +9,8 @@ const app = express();
 // Middleware
 app.use(cors(
     {
-        origin:'https://dashui-alpha.vercel.app',
-        methods: ['GET', 'POST']
+        Access-Control-Allow-Origin: 'https://dashui-alpha.vercel.app'
+
     }
 ));
 app.use(bodyParser.json());
